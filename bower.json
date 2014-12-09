@@ -1,9 +1,9 @@
 {
   "name": "calendar-date-picker",
-  "version":"0.1",  
+  "version": "0.1",
   "description": "A calendar date picker à la Material Design",
   "dependencies": {
-    "polymer": "Polymer/polymer#master",        
+    "polymer": "Polymer/polymer#master",
     "paper-button": "Polymer/paper-button#master",
     "paper-input": "Polymer/paper-input#master",
     "paper-shadow": "Polymer/paper-shadow#master",
@@ -11,5 +11,26 @@
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^1.0.0"
-  }
+  },
+  "homepage": "https://github.com/Syncofy/calendar-date-picker",
+  "main": "calendar-date-picker.html, calendar-date.html",
+  "keywords": [
+    "Polymer",
+    "Calendar",
+    "Date",
+    "Material",
+    "Design"
+  ],
+  "authors": [
+    "Ignacio Manzano and Ruben Stösser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
 }
